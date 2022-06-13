@@ -1,3 +1,44 @@
-body {
-  
+html {
+    scroll-behavior: smooth;
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-list {
+    font-size: 18px;
+    color:whitesmoke;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  #nav {
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: whitesmoke;
+  }
+
+  .nav-link:hover{
+    color: whitesmoke;
+    background-color: orange;
+    transition: .3s;
+  }
