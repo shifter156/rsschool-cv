@@ -1,22 +1,35 @@
 ### rsschool-cv 
 ## Artur Timofeev
-## Contacts: 
- - Country: Russia
- - Phone: +79142624432
- - Email: idnugen@gmail.com
- - Github: shifter156
-  About Me:
-  I am very willing to learn and develop new skills.
-  I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
+## About me
+I am a self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative.
 
-Skills:
- - HTML
- - CSS
- - JavaScript
- - Git
+## Skills
+HTML
+CSS
+JavaScript
+GIT
+
+## Contacts
+Email: idnugen@gmail.com
+Github: shifter156
+## Code 
+	function likes(names) {
+    return names.length === 0 ? "no one likes this" :
+    names.length === 1 ? `${names} likes this` : 
+    names.length === 2 ? `${names.join(' and ')} like this` :
+    names.length === 3 ? names.slice(0,2).join(', ') + " and " + names[2] + " like this" :
+    `${names.slice(0,2).join(", ")} and ${names.length-2} others like this`;}
+}
+   
+## Courses
+Stepik: JavaScript for beginners
+FreeCodeCamp: responsive web-design (legacy)
+Codeacademy: C# (beginner)
+
+## Education
+North-Eastern Federal University
+
+## English
+C1 - Advanced
 	
-### Code example: 
-`function reverseWords(str) {
-  return str.split("").reverse().join("").split(" ").reverse().join(" ")
-  // Go for it
-}`
+
