@@ -7,11 +7,14 @@ html {
   }
 
 body {
+  min-height: 100vh;
   margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
+  min-width: 300px;
 }
 
 .nav-list {
@@ -28,6 +31,9 @@ body {
 
   #nav {
     overflow: hidden;
+  }
+
+  .header {
     background-color: black;
   }
 
@@ -37,8 +43,79 @@ body {
     color: whitesmoke;
   }
 
-  .nav-link:hover{
+  .nav-link:hover {
     color: whitesmoke;
     background-color: orange;
     transition: .3s;
+  }
+
+  .nav-link:active {
+      background-color: white;
+      transition: .3s;
+  }
+
+  .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      opacity: 1.0;
+  }
+
+  .content {
+    margin: 5rem 0 0;
+  }
+
+  .skills-list {
+    list-style-type: circle;
+  }
+  
+  .footer {
+    background-color: orange;
+    margin-top: 20px;
+  }
+  .foo {
+    margin-top: 24px;
+    font-size: 14px;
+    float:left;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logo {
+    width: 65px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  pre {
+    margin-top: 0px;
+  }
+
+  .Code {
+    margin-bottom: 0px;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      width: 100%;
+    }
+  }
+  
+  .pfp {
+    vertical-align:middle;
+    height:190px;
+    border-radius:10%;
+    float:left;
+    margin-right:1rem;
+    border:1px solid black;
+  }
+
+  .hr1 {
+    border: 1px solid orange;
+    margin-top: 89px;
+  }
+
+  hr {
+    border: 1px solid orange;
   }

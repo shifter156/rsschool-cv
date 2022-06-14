@@ -15,21 +15,82 @@
         <div class="container" id="nav">
         <nav class="nav">
         <ul class="nav-list">
+            <li class="nav-item"><a href="#About-me" class="nav-link">About me</a></li>
             <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-            <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
             <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
             <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
         </ul>
     </nav>
     </div>
     </header>
     <main>
-        <section class="section" id="profile">
-            <h1></h1>
-            
+        <div class="container">
+        <section class="section" id="About-me">
+            <div class="section-profile-title"><h1>About me</h1></div>
+            <img src="assets/img/20190328_140349.jpg" alt="profile-picture" class="pfp">
+            <div class="content">I am a self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative.</div>
+            <hr class="hr1">
         </section>
-
+        <section class="section" id="Skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="Skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>GIT</li>
+        </ul>
+        <hr>
+        </section>
+        <section class="section" id="Contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="Contacts-list">
+                <li>Email: idnugen@gmail.com</li>
+                <li>Github: shifter156</li>
+            </ul>
+            <hr>
+        </section>
+        <section class="code" id="Code">
+            <h2 class="Code">Code</h2>
+<pre><code>
+    function likes(names) {
+    return names.length === 0 ? "no one likes this" :
+    names.length === 1 ? `${names} likes this` : 
+    names.length === 2 ? `${names.join(' and ')} like this` :
+    names.length === 3 ? names.slice(0,2).join(', ') + " and " + names[2] + " like this" :
+    `${names.slice(0,2).join(", ")} and ${names.length-2} others like this`;}
+</code></pre>
+        <hr>
+        </section>
+        <section class="courses" id="Courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="Courses">
+                <li>Stepik: JavaScript for beginners</li>
+                <li>FreeCodeCamp: responsive web-design (legacy)</li>
+                <li>Codeacademy: C# (beginner)</li>
+            </ul>
+        <hr>
+        </section>
+        <section class="Education" id="Education">
+            <h2 class="section-title">Education</h2>
+            North-Eastern Federal University
+        <hr>
+        </section>
+        <section class="English" id="English">
+            <h2>English</h2>
+            C1 - Advanced
+        </section>
+    </div>
     </main>
+    <footer class="footer">
+    <div class="container">
+    <div>
+        <a href="https://github.com/shifter156/" class="foo">@ 2022 shifter156</a></div>
+        <div>
+        <a href="https://rs.school/js/"><img class="logo" src="assets/img/rs_school_js.svg" alt="rs-school"></a></div>
+    </div>
+    </footer>
 </body>
 </html>
